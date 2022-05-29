@@ -1,5 +1,5 @@
 
-# Top 75 Problems
+# Blind 75 Problems
 
 ## Array
 
