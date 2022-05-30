@@ -1,161 +1,220 @@
-# [Grokking-the-Coding-Interview-Patterns-for-Coding-Questions](https://www.educative.io/courses/grokking-the-coding-interview)
+# Element of Programming Interviews i Python
 
-## 1. Pattern: Sliding Window
-- Maximum Sum Subarray of Size K (easy)
-- Smallest Subarray with a given sum (easy)
-- Longest Substring with K Distinct Characters (medium)
-- Fruits into Baskets (medium)
-- No-repeat Substring (hard) *
-- Longest Substring with Same Letters after Replacement (hard)
-- Longest Subarray with Ones after Replacement (hard) *
-- Problem Challenge 1 - Permutation in a String (hard) *
-- Problem Challenge 2 - String Anagrams (hard)
-- Problem Challenge 3 - Smallest Window containing Substring (hard) *
-- Problem Challenge 4 - Words Concatenation (hard) 
+## II DATA STRUCTURE AND ALGORITHMS
 
-## 2. Pattern: Two Pointers
-- Pair with Target Sum (easy)
-- Remove Duplicates (easy)
-- Squaring a Sorted Array (easy)
-- Triplet Sum to Zero (medium)
-- Triplet Sum Close to Target (medium)
-- Triplets with Smaller Sum (medium)
-- Subarrays with Product Less than a Target (medium) *
-- Problem Challenge 1 - Quadruple Sum to Target (medium) *
-- Problem Challenge 2 - Comparing Strings containing Backspaces (medium)
-- Problem Challenge 3 - Minimum Window Sort (medium) *
+### Primitive Types
+
+- Computing the parity of a word
+- Swap bits
+- Reverse bits
+- Find a closest integer with the same weight
+- Compute x x y without arithmetical operators
+- Compute x^y 
+- Compute x/y
+- Reverse digits 
+- Check if a decimal integer is a palindrome 
+- Generate uniform random numbers
+- Rectangle intersection
+
+### Arrays
+
+- The Dutch national flag problem
+- Increment an arbitrary-precision integer
+- Multiply two arbitrary-precision integers
+- Advancing through an array
+- Delete duplicates from a sorted array 
+- Buy and sell a stock once
+- Buy and sell a stock twice
+- Computing an altemation
+- Enumerate all primes to n
+- Permute the elements of an array 
+- Compute the next permutation
+- Sample offline data
+- Sample online data
+- Compute a random permutation
+- Compute a random subset
+- Generate nonuniform random numbers
+- The Sudoku checker problem
+- Compute the spiral ordering of a2D affay 
+- Rotate a2D array
+- Compute rows in Pascal's Triangle
+
+### Strings
+
+- Interconvert strings and integers
+- Base conversion
+- Compute the spreadsheet column encoding 
+- Replace and remove
+- Testpalindromicity
+- Reverse all the words in a sentence
+- Compute all mnemonics for a phone number
+- The look-and-say problem
+- Convert from Roman to decimal
+- Compute all valid IP addresses
+- Write a string sinusoidallY
+- Implement run-length encoding
+- Find the first occurrence of a substring
+
+### Linked List
+
+- Merge two sorted lists
+- Reverse a single sublist
+- Test for cyclicity
+- Test for overlapping lists-lists are cycle-free
+- Test for overlapping lists-lists may have cycles
+- Delete a node from a singly linked list 
+- Remove the kth last element from a list 
+- Remove duplicates from a sorted list 
+- Implement cyclic right shift for singly linked lists 
+- Implement even-odd merge
+- Test whether a singly linked list is palindromic
+- Implement list pivoting
+- Add list-based integers
+
+### Stacks and Queues
+
+- Implement a stack with max API
+- Evaluate RPN expressions
+- Test a string over "{,},(,),[,]" for well-formedness
+- Normalize pathnames
+- Compute buildings with a sunset view 
+- Compute binary tree nodes in order of increasing depth
+- Implement a circular queue
+- Implement a queue using stacks
+- Implement a queue with max API
+
+### Binary Trees
+
+- Test if a binary tree is height-balanced
+- Test if a binary tree is symmetric
+- Compute the lowest common ancestor in a binary tree 
+- Compute the LCA when nodes have parent pointers
+- Sum the root-to-leaf paths in a binary tree
+- Find a root to leaf path with specified sum
+- Implement an inorder traversal without recursion
+- Implement a preorder traversal without recursion
+- Compute the kth node in an inorder traversal
+- Compute the successor
+- Implement an inorder traversal with O(1) space 
+- Reconstruct a binary tree from traversal data
+- Reconstruct a binary tree from a preorder traversal with markers
+- Form a linked list from the leaves of a binary tree 
+- Compute the exterior of a binary tree 
+- Compute the right sibling tree 
+
+### Heaps
+
+- Merge sorted files
+- Sort an increasing-decreasing array 
+- Sort an almost-sorted array
+- Compute the k closest stars 
+- Compute the median of online data 
+- Compute the k largest elements in a max-heap
+
+### Searching
+
+- Search a sorted array for first occurrence ofk
+- Search a sorted array for entry equal to its index
+- Search a cyclically sorted array
+- Compute the integer square root
+- Compute the real square root
+- Search in a 2D sorted affay .
+- Find the min and max simultaneously
+- Find the kth largest element
+- Find the missing IP address
+- Find the duplicate and missing elements
+
+### Hash Tables
+
+- Test for palindromic permutations
+- Is an anonymous letter constructible?
+- Implement an ISBN cache
+- Compute the LCA, optimizing for close ancestors
+- Find the nearest repeated entries in an array
+- Find the smallest subarray covering all values
+- Find smallest subarray sequentially covering all values
+- Find the longest subarray with distinct entries
+- Find the length of a longest contained interval
+- Compute all string decompositions .
+- Test the Collatz conjecture
+- Implement a hash function for chess
+
+### Storing
+
+- Compute the intersection of two sorted arrays
+- Merge two sorted arrays
+- Remove first-name duplicates
+- Smallestnonconstructiblevalue
+- Render a calendar
+- Merging intervals
+- Compute the union of intervals
+- Partitioning and sorting an affay with many rePeated entries
+- Team photo day-1
+- lmplement a fast sorting algorithm for lists
+- Compute a salary threshold
+
+### Binary Search Trees
+
+- Test if a binary tree satisfies the BST property 
+- Find the first key greater than a given value in a BST
+- Find the k largest elements in a BST
+- Compute the LCA in a BST
+- Reconstruct a BST from traversal data
+- Find the closest entries in three sorted arrays
+- Enumerate numbers of the form a + b*sqrt(2)
+- Build a minimum height BST from a sorted affay .
+- Test if three BST nodes are totally ordered
+- The range lookup problem
+- Add credits
+
+### Recursion
+
+- The Towers of Hanoi problem
+- Generate all nonattacking placements of ,4-Queens
+- Generatepermutations
+- Generate the power set
+- Generate all subsets of size k . . . .
+- Generate strings of matched parens
+- Generatepalindromicdecompositions
+- Generate binary trees
+- Implement a Sudoku solver
+- Compute a Gray code
+
+### Dynamic Programming
+
+- Count the number of score combinations
+- Compute the Levenshtein distance
+- Count the number of ways to traverse a2D array .
+- Compute the binomial coefficients
+- Search for a sequence in a 2D array
+- The knapsack problem
+- The 'bedbathandbeyond.com' problem
+- Find the minimum weight path in a triangle .
+- Pick up coins for maximum gain
+- Count the number of moves to climb stairs
+- The pretty printing problem
+- Find the longest nondecreasing subsequence
 
 
-## 3. Pattern: Fast & Slow pointers
-- LinkedList Cycle (easy)
-- Middle of the LinkedList (easy)
-- Start of LinkedList Cycle (medium) *
-- Happy Number (medium) * 
-- Problem Challenge 1 - Palindrome LinkedList (medium) *
-- Problem Challenge 2 - Rearrange a LinkedList (medium)
-- Problem Challenge 3 - Cycle in a Circular Array (hard) *
+### Greedy Algorithms and Invariants
 
-## 4. Pattern: Merge Intervals
-- Merge Intervals (medium)
-- Insert Interval (medium) *
-- Intervals Intersection (medium)
-- Conflicting Appointments (medium)
-- Problem Challenge 1 - Minimum Meeting Rooms (hard) *
-- Problem Challenge 2 - Maximum CPU Load (hard)
-- Problem Challenge 3 - Employee Free Time (hard) *
-
-## 5.Pattern: Cyclic Sort
-- Cyclic Sort (easy)
-- Find the Missing Number (easy)
-- Find all Missing Numbers (easy)
-- Find the Duplicate Number (easy)
-- Find all Duplicate Numbers (easy)
-- Problem Challenge 1 - Find the Corrupt Pair (easy)
-- Problem Challenge 2 - Find the Smallest Missing Positive Number (medium)
-- Problem Challenge 3 - Find the First K Missing Positive Numbers (hard) *
-
-## 6. Pattern: In-place Reversal of a LinkedList
-- Reverse a LinkedList (easy) 
-- Reverse a Sub-list (medium) 
-- Reverse every K-element Sub-list (medium) *
-- Problem Challenge 1 - Reverse alternating K-element Sub-list (medium)
-- Problem Challenge 2 - Rotate a LinkedList (medium)
-
-## 7. Pattern: Tree Breadth First Search
-- Binary Tree Level Order Traversal (easy)
-- Reverse Level Order Traversal (easy) * 
-- Zigzag Traversal (medium)
-- Level Averages in a Binary Tree (easy)
-- Minimum Depth of a Binary Tree (easy) 
-- Level Order Successor (easy)
-- Connect Level Order Siblings (medium)
-- Problem Challenge 1 - Connect All Level Order Siblings (medium)
-- Problem Challenge 2 - Right View of a Binary Tree (easy) 
-
-## 8. Pattern: Tree Depth First Search
-- Binary Tree Path Sum (easy)
-- All Paths for a Sum (medium) *
-- Sum of Path Numbers (medium)
-- Path With Given Sequence (medium) *
-- Count Paths for a Sum (medium)
-- Problem Challenge 1 - Tree Diameter (medium) *
-- Problem Challenge 2 - Path with Maximum Sum (hard) *
-
-## 9. Pattern: Two Heaps
-- Find the Median of a Number Stream (medium) 
-- Sliding Window Median (hard) *
-- Maximize Capital (hard) * 
-- Problem Challenge 1 - Next Interval (hard) 
-
-## 10. Pattern: Subsets
-- Subsets (easy)
-- Subsets With Duplicates (easy) *
-- Permutations (medium) *
-- String Permutations by changing case (medium)
-- Balanced Parentheses (hard) *
-- Unique Generalized Abbreviations (hard) * 
-- Problem Challenge 1 - Evaluate Expression (hard) *
-- Problem Challenge 2 - Structurally Unique Binary Search Trees (hard) *
-- Problem Challenge 3 - Count of Structurally Unique Binary Search Trees (hard)
-
-## 11. Pattern: Modified Binary Search
-- Order-agnostic Binary Search (easy)
-- Ceiling of a Number (medium) *
-- Next Letter (medium)
-- Number Range (medium) *
-- Search in a Sorted Infinite Array (medium) *
-- Minimum Difference Element (medium)
-- Bitonic Array Maximum (easy)
-- Problem Challenge 1 - Search Bitonic Array (medium)
-- Problem Challenge 2 - Search in Rotated Array (medium) * 
-- Problem Challenge 3 - Rotation Count (medium) *
-
-## 12. Pattern: Bitwise XOR
-- Single Number (easy)
-- Two Single Numbers (medium) *
-- Complement of Base 10 Number (medium)
-- Problem Challenge 1
-
-## 13. Pattern Top 'K' Elements
-- Top 'K' Numbers (easy)
-- Kth Smallest Number (easy)
-- 'K' Closest Points to the Origin (easy)
-- Connect Ropes (easy) *
-- Top 'K' Frequent Numbers (medium)
-- Frequency Sort (medium) *
-- Kth Largest Number in a Stream (medium)
-- 'K' Closest Numbers (medium)
-- Maximum Distinct Elements (medium)
-- Sum of Elements (medium) 
-- Rearrange String (hard)
-- Problem Challenge 1 - Rearrange String K Distance Apart (hard) 
-- Problem Challenge 2 - Scheduling Tasks (hard) *
-- Problem Challenge 3 - Frequency Stack (hard) 
-
-## 14. Pattern: K-way merge
-- Merge K Sorted Lists (medium) *
-- Kth Smallest Number in M Sorted Lists (Medium) 
-- Kth Smallest Number in a Sorted Matrix (Hard) *
-- Smallest Number Range (Hard) *
-- Problem Challenge 1 - K Pairs with Largest Sums (Hard) 
-
-## 15. Pattern : 0/1 Knapsack (Dynamic Programming)
-- 0/1 Knapsack (medium)
-- Equal Subset Sum Partition (medium) *
-- Subset Sum (medium)
-- Minimum Subset Sum Difference (hard) *
-- Problem Challenge 1 - Count of Subset Sum (hard) 
-- Problem Challenge 2 - Target Sum (hard) 
+- Compute an optimum assignment of tasks
+- Schedule to minimize waiting time .
+- The interval covering problem
+- The 3-sum problem
+- Find the majority element
+- The gasup problem
+- Compute the maximum water trapped by a pair of vertical lines .
+- Compute the largest rectangle under the skyline
 
 
-## 16. Pattern: Topological Sort (Graph)
-- Topological Sort (medium) *
-- Tasks Scheduling (medium)
-- Tasks Scheduling Order (medium)
-- All Tasks Scheduling Orders (hard) *
-- Alien Dictionary (hard) 
-- Problem Challenge 1 - Reconstructing a Sequence (hard) *
-- Problem Challenge 2 - Minimum Height Trees (hard) *
+### Graphs
 
-## 17. Miscellaneous
-- Kth Smallest Number (hard) *
+- Search amaze
+- Paint a Boolean matrix
+- Compute enclosed regions . .
+- Deadlock detection
+- Clone a graph
+- Making wired connections
+- Transform one string to another
+- Team photo day-2
